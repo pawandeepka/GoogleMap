@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "994752594339",
+    "firebase_url": "https://my-geofence-d6712.firebaseio.com",
+    "project_id": "my-geofence-d6712",
+    "storage_bucket": "my-geofence-d6712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994752594339:android:c2d42b2304d226d5",
+        "android_client_info": {
+          "package_name": "com.dcdineshk.googlemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994752594339-1slp8ge69dq1qr4octmpidkrisou7kei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfqocxXuITGO6FTX5YlCV82ffZNCUrods"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

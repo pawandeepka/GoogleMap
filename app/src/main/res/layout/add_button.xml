@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_AddUser"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_user"
+            android:text="Add Geo Area"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_TrackRoute"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_user"
+            android:text="Track Route"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
